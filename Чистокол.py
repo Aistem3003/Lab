@@ -3,7 +3,6 @@ import tkinter as ttk
 def code(a, b):
     a = a.get().replace(" ", "")
     b = int(b.get()) + 1
-    combined_text = ''.join(a)
     result_list = [[] for i in range(b)]
     c = 1
     c_step = 1
