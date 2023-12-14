@@ -6,7 +6,7 @@ def code(a, b):
     result_list = [[] for i in range(b)]
     c = 1
     c_step = 1
-    for letter in combined_text:
+    for letter in a:
         if letter.isalpha():
             result_list[c - 1].append(letter)
             if c == 1:
